@@ -17,15 +17,15 @@ ms.locfileid: "53236666"
 
 El sistema de tipos de C# contiene las siguientes categorías:
 
-- [Tipos de valor](value-types.md)
+- [Tipos valor](value-types.md)
 
-- [Tipos de referencia](reference-types.md)
+- [Tipos referencia](reference-types.md)
 
-- [Tipos de puntero](../../programming-guide/unsafe-code-pointers/pointer-types.md)
+- [Tipos puntero](../../programming-guide/unsafe-code-pointers/pointer-types.md)
 
- Las variables que son tipos de valor almacenan datos y las que son tipos de referencia almacenan referencias a los datos reales. Las instancias de tipos de referencia también se conocen como objetos. Los tipos de puntero se pueden usar solo en modo [unsafe](unsafe.md).
+ Las variables tipo valor almacenan datos y las tipos referencia almacenan referencias a los datos reales. Las instancias de tipos referencia también se conocen como objetos. Los tipos puntero se pueden usar solo en modo [unsafe](unsafe.md).
 
- Es posible convertir un tipo de valor en un tipo de referencia y volver a un tipo de valor mediante el uso de la [conversión boxing y unboxing](../../../csharp/programming-guide/types/boxing-and-unboxing.md). Con la excepción de un tipo de valor al que se le ha aplicado la conversión boxing, no se puede convertir un tipo de referencia en un tipo de valor.
+ Es posible convertir un tipo valor en un tipo referencia y volver a un tipo valor mediante el uso de la [conversión boxing y unboxing](../../../csharp/programming-guide/types/boxing-and-unboxing.md). Con la excepción de un tipo valor al cual ha aplicado la conversión boxing, no se puede convertir un tipo referencia en un tipo valor.
 
  En esta sección también se presenta [void](void.md).
 
